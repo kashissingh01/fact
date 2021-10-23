@@ -8,7 +8,7 @@ int main()
   //finding the length of the string
   while (str[count] != '\0')
   {
-    count++;
+    count=count+1;
   }
   j = count - 1;
 
