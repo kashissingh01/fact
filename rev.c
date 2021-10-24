@@ -1,13 +1,13 @@
 #include<stdio.h>
 int main(){
-   int num,reverse_number;
+   int num,rev_number;
 
    //User would input the number
    printf("\nEnter any number:");
    scanf("%d",&num);
 
    //Calling user defined function to perform reverse
-   reverse_number=reverse_function(num);
+   rev_number=reverse_function(num);
    printf("\nAfter reverse the no is :%d",reverse_number);
    return 0;
 }
